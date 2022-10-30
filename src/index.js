@@ -5,6 +5,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import HelloWorld from './helloWorld';
 import Routess from './Routes';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
