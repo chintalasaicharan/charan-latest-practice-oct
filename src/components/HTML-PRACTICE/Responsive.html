@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOW TO MAKE A WEBSITE</title>
+    <!-- <link rel="stylesheet" href="./Responsive.css" type="text/css"> -->
+    <style>
+        *{
+    margin: 0px;
+    padding: 0;
+}
+.header{
+    height: 100vh;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+.logo{
+    height: 48px;
+    padding: 2px 10px;
+}
+.navbar-toggler-icon
+{
+    background: darkorange;
+}
+li a{
+    color: red;
+}
+.big-text
+{
+font-size: 52px;
+margin: 20px 0;
+color: darkorange;
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+}
+a.btn-first
+{
+    background-color: orange;
+}
+a.btn-second
+{
+    background-color: transparent;
+    border: 1px solid orange;
+    color: #333;
+}
+a.btn:hover{
+    background-color: darkorange;
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+.banner-info, .banner-img{
+margin: 30px 0;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-style navbar-expand-sm">
+            <div class="container">
+                <div class="navbar-header">
+                   
+                    <a href="">
+                        <img class="logo" src="https://w7.pngwing.com/pngs/287/216/png-transparent-black-and-red-wings-logo-illustration-logo-phoenix-art-phoenix-leaf-logo-symmetry.png " alt="logo">
+                    </a>
+                    <button type="button" class="navbar-bs-toggle" data-bs-toggle="collapse" data-bs-target="#demo">
+                        <span class="navbar-toggler-icon"></span>
+                        
+                    </button>
+                </div>
+                <div class=" collapse show  " id="demo">
+                <ul class=" nav navbar-nav navbar-right">
+                    <li class="nav-item"><a class="nav-link" href="home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Gallery">Gallery</a></li>
+                    <li class=""><a class="nav-link" href="Contact">Contact US</a></li>
+                    
+                </ul>
+                </div>
+            </div>
+
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7 banner-info">
+                    <h1>HOW TO</h1>
+                    <P class="big-text">create responsive website </P>
+                    <p>learn how to make beautiful responsive website using html, css, bootstrap</p>
+                    <a class="btn btn-first" href="#">Like video</a>
+                    <a class="btn btn-second" href="#">Subscribe</a>
+                </div>
+                <div class="col-sm-5 banner-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP8WOqboEzs8p1jmQ15FKgJAwgU89FRCr7qg&usqp=CAU" alt="emp" class="img-responsive" height="400" width="420">
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

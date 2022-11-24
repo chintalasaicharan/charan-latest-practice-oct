@@ -7,6 +7,16 @@ import TabledataBootstrp from './practiceOne/AddEditDelete/AddEditDeletBootsr';
 import AdDeleteEditNrml from './practiceOne/AddEditDelete/AddEditDeleteNrml';
 import ApiCalls from './practiceOne/ApiCalls/ApiCalls';
 import BarCharts from './practiceOne/barChart/BarChart';
+import { DolorToIndiaRupee } from './practiceOne/DolorToIndianRupee/DolorToIndianRupee';
+import Loginform from './practiceOne/LOGIN_PAGE/Login';
+import { MirrorsNum } from './practiceOne/MirrorNumbers/MirrorNum';
+import { NotRepeatString } from './practiceOne/NotRepeatingString/NotRepeatingString';
+import { OnMouseOver } from './practiceOne/OnMouseOver/OnMOuseOver';
+import SearchOperation from './practiceOne/SearchOperations/SearchOperations';
+import { Transperant } from './practiceOne/Transparant/Transparant';
+import { TrimValue } from './practiceOne/TrimSpaces/TrimSpacees';
+import Uniquewords from './practiceOne/UniqKeyWord/UniqueWord';
+import UseEffectAxios from './practiceOne/UseEffectAxios/UseEffectAxios';
 
 const Routess = () => {
   return (
@@ -20,6 +30,16 @@ const Routess = () => {
             <Route path='/BarCharts' element={< BarCharts/>}/>
             <Route path='/AdDeleteEditNrml' element={< AdDeleteEditNrml/>}/>
             <Route path='/TabledataBootstrp' element={< TabledataBootstrp/>}/>
+            <Route path='/Loginform' element={< Loginform/>}/>
+            <Route path='/UseEffectAxios' element={< UseEffectAxios/>}/>
+            <Route path='/TrimValue' element={< TrimValue/>}/>
+            <Route path='/Transperant' element={< Transperant/>}/>
+            <Route path='/MirrorsNum' element={< MirrorsNum/>}/>
+            <Route path='/OnMouseOver' element={< OnMouseOver/>}/>
+            <Route path='/DolorToIndiaRupee' element={< DolorToIndiaRupee/>}/>
+            <Route path='/Uniquewords' element={< Uniquewords/>}/>
+            <Route path='/NotRepeatString' element={< NotRepeatString/>}/>
+            <Route path='/SearchOperation' element={< SearchOperation/>}/>
         </Routes>
         </BrowserRouter>
     </div>

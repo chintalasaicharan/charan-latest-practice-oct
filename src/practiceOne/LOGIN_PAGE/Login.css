@@ -1,0 +1,32 @@
+.form-control {
+   
+    text-align: center;
+    
+}
+/* .paddg{
+    padding-left: 40px;
+} */
+
+.card-main {
+    background-color: darkslategray;
+    width: 50%;
+
+}
+
+.card-last {
+    color: green;
+}
+.posAbs{
+    position: relative;
+    right: 200px;
+    top: 32px;
+
+}
+.posRel{
+    position: relative;
+    left: 200px;
+    bottom: 32px;
+}
+.colorReds{
+    background-color: aqua;
+}
