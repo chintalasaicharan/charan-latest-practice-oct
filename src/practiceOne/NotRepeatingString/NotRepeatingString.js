@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 export const NotRepeatString = () => {
     const [state, setState] = useState();
+    const [state1, setState1] = useState();
     const handleRemoveString = (e) => {
         setState(e.target.value);
         // console.log(state);
@@ -12,7 +13,7 @@ export const NotRepeatString = () => {
         let str = state;
         // console.log(str);
         let str1 = str.split(" ");
-        console.log(str1);
+        console.log("11", str1);
         for (let i = 0; i < str1.length; i++) {
             // console.log(str1[i]);
             for (let j = 0; j < str1.length; j++) {
@@ -21,9 +22,10 @@ export const NotRepeatString = () => {
                 }
             }
             console.log(count);
-           
+
             if (count == 1) {
-                console.log(str1[i]);
+                console.log('22', str1[i]);
+                setState1(str1[i]);
             }
             count = 0;
         }
@@ -45,6 +47,7 @@ export const NotRepeatString = () => {
                             <input type="submit" onClick={handleShowRemove} />
                         </div>
                     </div>
+                    {state1}
                 </div>
             </div>
         </div>

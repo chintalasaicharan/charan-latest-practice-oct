@@ -3,10 +3,10 @@ import React, { useState } from 'react'
 export const DolorToIndiaRupee = () => {
 
     const [state, setState] = useState(
-    //     {
-    //     currency: '',
-    // }
-    '');
+        //     {
+        //     currency: '',
+        // }
+        '');
     const [state1, setState1] = useState();
 
     // let { currency } = state;
@@ -18,10 +18,8 @@ export const DolorToIndiaRupee = () => {
         //         [e.target.name]: e.target.value,
         //     }
         // }))
-        setState( e.target.value );
+        setState(e.target.value);
         console.log(state);
-
-
     }
 
     const valueSub = (e) => {
@@ -54,12 +52,9 @@ export const DolorToIndiaRupee = () => {
                                 <div>
                                     <label htmlFor="dolor">Rupees $</label>
                                 </div>
-
-
                                 <input type="text" value={state} onChange={changeValue} />
                             </div>
                             {state1}
-
                             <div>
                                 <input type="submit" onClick={valueSub} />
                                 &nbsp;

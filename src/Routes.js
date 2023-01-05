@@ -7,7 +7,9 @@ import TabledataBootstrp from './practiceOne/AddEditDelete/AddEditDeletBootsr';
 import AdDeleteEditNrml from './practiceOne/AddEditDelete/AddEditDeleteNrml';
 import ApiCalls from './practiceOne/ApiCalls/ApiCalls';
 import BarCharts from './practiceOne/barChart/BarChart';
+import ButtonPropParent from './practiceOne/BottonPropAction/ButtonPropParent';
 import { DolorToIndiaRupee } from './practiceOne/DolorToIndianRupee/DolorToIndianRupee';
+import LoginUrl from './practiceOne/LoginsURL/LoginUrl';
 import Loginform from './practiceOne/LOGIN_PAGE/Login';
 import { MirrorsNum } from './practiceOne/MirrorNumbers/MirrorNum';
 import { NotRepeatString } from './practiceOne/NotRepeatingString/NotRepeatingString';
@@ -40,6 +42,8 @@ const Routess = () => {
             <Route path='/Uniquewords' element={< Uniquewords/>}/>
             <Route path='/NotRepeatString' element={< NotRepeatString/>}/>
             <Route path='/SearchOperation' element={< SearchOperation/>}/>
+            <Route path='/LoginUrl' element={< LoginUrl/>}/>
+            <Route path='/ButtonPropParent' element={< ButtonPropParent/>}/>
         </Routes>
         </BrowserRouter>
     </div>

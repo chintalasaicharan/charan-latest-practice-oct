@@ -230,7 +230,7 @@ const TabledataBootstrp = () => {
                     <Button variant="secondary" onClick={handleClose}>
                         Close
                     </Button>
-                    <Button type="submit" onClick={addBtn}>Save Changes</Button>
+                    <Button type="submit" onClick={addBtn}>Saves Changes</Button>
                 </Modal.Footer>
             </Modal>
 

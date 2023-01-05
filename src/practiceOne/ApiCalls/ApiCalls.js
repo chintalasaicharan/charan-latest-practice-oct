@@ -15,13 +15,13 @@ const ApiCalls = () => {
         setState({ ...state, [e.target.name]: e.target.value })
     }
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const res = await axios.get("http://localhost:8080/codexbox/all");
-      setData(res.data);
-    };
-    fetchData();
-  }, [data]);
+    useEffect(() => {
+        const fetchData = async () => {
+            const res = await axios.get("http://localhost:8080/codexbox/all");
+            setData(res.data);
+        };
+        fetchData();
+    }, [data]);
 
     const submitFn = async (e) => {
         e.preventDefault()
