@@ -8,6 +8,7 @@ import AdDeleteEditNrml from './practiceOne/AddEditDelete/AddEditDeleteNrml';
 import ApiCalls from './practiceOne/ApiCalls/ApiCalls';
 import BarCharts from './practiceOne/barChart/BarChart';
 import ButtonPropParent from './practiceOne/BottonPropAction/ButtonPropParent';
+import Increment from './practiceOne/BottonPropAction/Increment';
 import { DolorToIndiaRupee } from './practiceOne/DolorToIndianRupee/DolorToIndianRupee';
 import LoginUrl from './practiceOne/LoginsURL/LoginUrl';
 import Loginform from './practiceOne/LOGIN_PAGE/Login';
@@ -44,6 +45,9 @@ const Routess = () => {
             <Route path='/SearchOperation' element={< SearchOperation/>}/>
             <Route path='/LoginUrl' element={< LoginUrl/>}/>
             <Route path='/ButtonPropParent' element={< ButtonPropParent/>}/>
+            <Route path='/Increment' element={< Increment/>}/>
+
+
         </Routes>
         </BrowserRouter>
     </div>

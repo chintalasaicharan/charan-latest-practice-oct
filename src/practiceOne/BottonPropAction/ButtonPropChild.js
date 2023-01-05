@@ -1,10 +1,10 @@
 import React from "react";
 
-const ButtonPropChild=(handleButton)=>{
+const ButtonPropChild=(props)=>{
     return(
         <div>
         hello
-        <button onClick={handleButton}>click</button>
+        <button onClick={props.handleButton}>click</button>
         </div>
     );
 }
